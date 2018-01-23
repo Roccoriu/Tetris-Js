@@ -1,0 +1,45 @@
+@font-face {
+    font-family: tetris;
+    src: url("8-BIT WONDER.TTF");
+
+}
+
+body{
+    background-color: #202028;
+    color:#fff;
+    font-family: tetris, serif;
+    text-align: center;
+}
+
+canvas{
+    border: solid #fff;
+    margin:0;
+}
+
+.title{
+    font-size: 2.2em;
+}
+
+.parent{
+    width:100%;
+    margin : 0;
+}
+
+.parent1{
+    float: left;
+    padding: 0;
+    margin: 75px 0 0 15%;
+
+}
+
+.parent2{
+    position: fixed;
+    width:100%;
+    margin: 0;
+}
+
+.score{
+    font-size: 1.5em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
